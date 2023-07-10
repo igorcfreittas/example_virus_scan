@@ -31,7 +31,7 @@
 <body>
     <div class="container mt-5">
         <form action="{{route('scan', ['is_view' => 1])}}" method="post" enctype="multipart/form-data">
-            <h3 class="text-center mb-5">Upload File in Laravel</h3>
+            <h3 class="text-center mb-5">Laravel Virus Scan</h3>
             @csrf
             <div class="custom-file">
                 <input type="file" name="file" class="custom-file-input" id="chooseFile">
